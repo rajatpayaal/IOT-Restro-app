@@ -1,4 +1,4 @@
-package com.haerul.foodsapp.view.category;
+package com.iot.iotrestaurantapp.view.category;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,11 +15,11 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.haerul.foodsapp.R;
-import com.haerul.foodsapp.Utils;
-import com.haerul.foodsapp.adapter.RecyclerViewMealByCategory;
-import com.haerul.foodsapp.model.Meals;
-import com.haerul.foodsapp.view.detail.DetailActivity;
+import com.iot.iotrestaurantapp.R;
+import com.iot.iotrestaurantapp.Utils;
+import com.iot.iotrestaurantapp.adapter.RecyclerViewMealByCategory;
+import com.iot.iotrestaurantapp.model.Meals;
+import com.iot.iotrestaurantapp.view.detail.DetailActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -27,7 +27,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import static com.haerul.foodsapp.view.home.HomeActivity.EXTRA_DETAIL;
+import static com.iot.iotrestaurantapp.view.home.HomeActivity.EXTRA_DETAIL;
 public class CategoryFragment extends Fragment implements CategoryView {
 
     @BindView(R.id.recyclerView)

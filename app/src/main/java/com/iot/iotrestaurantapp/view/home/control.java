@@ -8,13 +8,13 @@
  -                                                                            -
  -                                                                            -
  -----------------------------------------------------------------------------*/
-package com.haerul.foodsapp.view.home;
+package com.iot.iotrestaurantapp.view.home;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.haerul.foodsapp.R;
+import com.iot.iotrestaurantapp.R;
 
 
 public class control extends AppCompatActivity {

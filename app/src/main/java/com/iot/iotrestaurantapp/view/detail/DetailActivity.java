@@ -1,4 +1,4 @@
-package com.haerul.foodsapp.view.detail;
+package com.iot.iotrestaurantapp.view.detail;
 
 import android.content.Intent;
 import android.graphics.PorterDuff;
@@ -20,15 +20,15 @@ import androidx.core.view.ViewCompat;
 
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
-import com.haerul.foodsapp.R;
-import com.haerul.foodsapp.Utils;
-import com.haerul.foodsapp.model.Meals;
+import com.iot.iotrestaurantapp.R;
+import com.iot.iotrestaurantapp.Utils;
+import com.iot.iotrestaurantapp.model.Meals;
 import com.squareup.picasso.Picasso;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.haerul.foodsapp.view.home.HomeActivity.EXTRA_DETAIL;
+import static com.iot.iotrestaurantapp.view.home.HomeActivity.EXTRA_DETAIL;
 
 public class DetailActivity extends AppCompatActivity  implements DetailView {
 

@@ -4,7 +4,7 @@
  - Subscribe : https://www.youtube.com/haerulmuttaqin                         -
  - Copyright (c) 2019. All rights reserved                                    -
  -----------------------------------------------------------------------------*/
-package com.haerul.foodsapp;
+package com.iot.iotrestaurantapp;
 
 import org.junit.Test;
 

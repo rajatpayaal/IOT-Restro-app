@@ -1,8 +1,5 @@
 <component name="CopyrightManager">
-  <settings default="Haerul Muttaqin">
-    <module2copyright>
-      <element module="All" copyright="Haerul Muttaqin" />
-    </module2copyright>
+  <settings default="RAJAT PAYAL">
     <LanguageOptions name="XML">
       <option name="fileTypeOverride" value="3" />
       <option name="relativeBefore" value="false" />

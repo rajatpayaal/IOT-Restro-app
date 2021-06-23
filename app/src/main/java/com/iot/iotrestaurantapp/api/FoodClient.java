@@ -1,4 +1,4 @@
-package com.haerul.foodsapp.api;
+package com.iot.iotrestaurantapp.api;
 
 import java.util.concurrent.TimeUnit;
 

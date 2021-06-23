@@ -1,9 +1,9 @@
-package com.haerul.foodsapp.view.detail;
+package com.iot.iotrestaurantapp.view.detail;
 
 import androidx.annotation.NonNull;
 
-import com.haerul.foodsapp.Utils;
-import com.haerul.foodsapp.model.Meals;
+import com.iot.iotrestaurantapp.Utils;
+import com.iot.iotrestaurantapp.model.Meals;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

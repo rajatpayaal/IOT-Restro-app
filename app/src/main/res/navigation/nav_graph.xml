@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  /*
+
+
+   * All Rights Reserved
+  RAJAT PAYAL
+
+
+   */
+  -->
+
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,9 +18,9 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.haerul.foodsapp.view.home.FirstFragment"
+        android:name="com.iot.iotrestaurantapp.view.home.FirstFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first" >
+        tools:layout="@layout/fragment_first">
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
@@ -17,9 +28,9 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.haerul.foodsapp.view.home.SecondFragment"
+        android:name="com.iot.iotrestaurantapp.view.home.SecondFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second" >
+        tools:layout="@layout/fragment_second">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"

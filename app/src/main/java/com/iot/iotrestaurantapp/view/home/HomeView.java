@@ -1,7 +1,7 @@
-package com.haerul.foodsapp.view.home;
+package com.iot.iotrestaurantapp.view.home;
 
-import com.haerul.foodsapp.model.Categories;
-import com.haerul.foodsapp.model.Meals;
+import com.iot.iotrestaurantapp.model.Categories;
+import com.iot.iotrestaurantapp.model.Meals;
 
 import java.util.List;
 

@@ -1,11 +1,11 @@
 
-package com.haerul.foodsapp;
+package com.iot.iotrestaurantapp;
 
 import android.app.AlertDialog;
 import android.content.Context;
 
-import com.haerul.foodsapp.api.FoodApi;
-import com.haerul.foodsapp.api.FoodClient;
+import com.iot.iotrestaurantapp.api.FoodApi;
+import com.iot.iotrestaurantapp.api.FoodClient;
 
 public class Utils {
 

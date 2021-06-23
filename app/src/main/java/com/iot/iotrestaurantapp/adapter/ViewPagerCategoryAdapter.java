@@ -1,5 +1,5 @@
 
-package com.haerul.foodsapp.adapter;
+package com.iot.iotrestaurantapp.adapter;
 
 import android.os.Bundle;
 import androidx.annotation.Nullable;
@@ -7,8 +7,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.haerul.foodsapp.model.Categories;
-import com.haerul.foodsapp.view.category.CategoryFragment;
+import com.iot.iotrestaurantapp.model.Categories;
+import com.iot.iotrestaurantapp.view.category.CategoryFragment;
 
 import java.util.List;
 

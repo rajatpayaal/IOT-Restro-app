@@ -1,5 +1,5 @@
 
-package com.haerul.foodsapp.view.category;
+package com.iot.iotrestaurantapp.view.category;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,10 +10,10 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
-import com.haerul.foodsapp.R;
-import com.haerul.foodsapp.adapter.ViewPagerCategoryAdapter;
-import com.haerul.foodsapp.model.Categories;
-import com.haerul.foodsapp.view.home.HomeActivity;
+import com.iot.iotrestaurantapp.R;
+import com.iot.iotrestaurantapp.adapter.ViewPagerCategoryAdapter;
+import com.iot.iotrestaurantapp.model.Categories;
+import com.iot.iotrestaurantapp.view.home.HomeActivity;
 
 import java.util.List;
 

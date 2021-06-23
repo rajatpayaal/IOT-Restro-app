@@ -1,6 +1,6 @@
-package com.haerul.foodsapp.view.detail;
+package com.iot.iotrestaurantapp.view.detail;
 
-import com.haerul.foodsapp.model.Meals;
+import com.iot.iotrestaurantapp.model.Meals;
 
 public interface DetailView {
     void showLoading();

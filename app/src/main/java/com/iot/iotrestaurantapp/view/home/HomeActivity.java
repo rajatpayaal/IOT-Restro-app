@@ -1,4 +1,4 @@
-package com.haerul.foodsapp.view.home;
+package com.iot.iotrestaurantapp.view.home;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,14 +11,14 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
-import com.haerul.foodsapp.R;
-import com.haerul.foodsapp.Utils;
-import com.haerul.foodsapp.adapter.RecyclerViewHomeAdapter;
-import com.haerul.foodsapp.adapter.ViewPagerHeaderAdapter;
-import com.haerul.foodsapp.model.Categories;
-import com.haerul.foodsapp.model.Meals;
-import com.haerul.foodsapp.view.category.CategoryActivity;
-import com.haerul.foodsapp.view.detail.DetailActivity;
+import com.iot.iotrestaurantapp.R;
+import com.iot.iotrestaurantapp.Utils;
+import com.iot.iotrestaurantapp.adapter.RecyclerViewHomeAdapter;
+import com.iot.iotrestaurantapp.adapter.ViewPagerHeaderAdapter;
+import com.iot.iotrestaurantapp.model.Categories;
+import com.iot.iotrestaurantapp.model.Meals;
+import com.iot.iotrestaurantapp.view.category.CategoryActivity;
+import com.iot.iotrestaurantapp.view.detail.DetailActivity;
 
 import java.io.Serializable;
 import java.util.List;

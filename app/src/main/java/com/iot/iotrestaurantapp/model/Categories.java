@@ -1,5 +1,5 @@
 
-package com.haerul.foodsapp.model;
+package com.iot.iotrestaurantapp.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

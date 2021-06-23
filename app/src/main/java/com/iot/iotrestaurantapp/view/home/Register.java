@@ -1,4 +1,4 @@
-package com.haerul.foodsapp.view.home;
+package com.iot.iotrestaurantapp.view.home;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.haerul.foodsapp.R;
+import com.iot.iotrestaurantapp.R;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -87,7 +87,7 @@ bcke.startAnimation(bttiga);
 
 
         if(fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(),login.class));
+            startActivity(new Intent(getApplicationContext(),MainActivity.class));
             finish();
         }
 

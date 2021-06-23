@@ -1,122 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Developed by Haerul Muttaqin
-  Last modified 3/17/19 5:24 AM
-  Subscribe : https://www.youtube.com/haerulmuttaqin
-  Copyright (c) 2019. All rights reserved
-  -->
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#090808"
     android:fitsSystemWindows="true"
     tools:context=".view.home.HomeActivity">
 
-    <android.support.v4.widget.NestedScrollView
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:fillViewport="true"
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorBackground">
+        android:background="@color/colorBackground"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
         <RelativeLayout
             android:id="@+id/headerView"
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="300dp">
+            android:layout_height="300dp"
+            android:background="#000000"
+            android:orientation="vertical">
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
-                android:background="@color/colorPrimary" />
+                android:background="@color/colorPrimaryText" />
 
             <TextView
                 android:id="@+id/title"
-                android:textColor="@color/colorWhite"
-                android:text="@string/app_name"
-                android:textStyle="bold"
-                android:textSize="30sp"
+                android:layout_width="208dp"
+                android:layout_height="58dp"
                 android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
                 android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_marginRight="16dp"
+                android:text="RESTRO"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cardSearch"
-                android:layout_below="@id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/title"
                 android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
                 android:layout_marginTop="15dp"
+                android:layout_marginRight="16dp"
                 app:cardBackgroundColor="@color/colorPrimaryDark"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="0dp">
+
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:drawableStart="@drawable/ic_search_primary_light"
+                    android:drawableLeft="@drawable/ic_search_primary_light"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
                     android:padding="10dp"
                     android:text="@string/search_your_recipes"
-                    android:textColor="@color/colorPrimaryLight"
-                    android:gravity="center_vertical"
-                    android:drawableLeft="@drawable/ic_search_primary_light"
-                    android:drawableStart="@drawable/ic_search_primary_light"
-                    android:drawablePadding="10dp"/>
-            </android.support.v7.widget.CardView>
+                    android:textColor="@color/colorPrimaryLight" />
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v4.view.ViewPager
+            <ImageButton
+                android:id="@+id/iott1"
+                android:layout_width="56dp"
+                android:layout_height="47dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="311dp"
+                android:layout_marginTop="22dp"
+                android:background="#00FFFFFF"
+                android:text="Button"
+                app:srcCompat="@drawable/device" />
+
+            <androidx.viewpager.widget.ViewPager
                 android:id="@+id/viewPagerHeader"
-                android:foregroundGravity="center"
-                android:overScrollMode="never"
-                android:clipToPadding="false"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
                 android:layout_below="@id/cardSearch"
                 android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="150dp" />
+                android:clipToPadding="false"
+                android:foregroundGravity="center"
+                android:overScrollMode="never" />
 
-            <include android:id="@+id/shimmerMeal"
+            <include
+                android:id="@+id/shimmerMeal"
                 layout="@layout/item_view_pager_header_shimmer" />
 
             <TextView
                 android:id="@+id/titleCategory"
-                android:text="@string/meal_categories"
-                android:textSize="19sp"
-                android:textColor="@color/colorPrimary"
-                android:textStyle="bold"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/viewPagerHeader"/>
+                android:layout_below="@id/viewPagerHeader"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/meal_categories"
+                android:textColor="@color/colorBackground"
+                android:textSize="19sp"
+                android:textStyle="bold" />
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerCategory"
-                android:scrollbars="none"
-                android:layout_marginTop="10dp"
-                android:clipToPadding="false"
-                android:layout_below="@id/titleCategory"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_below="@id/titleCategory"
                 android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="8dp"
-                android:layout_marginBottom="50dp" />
+                android:layout_marginBottom="50dp"
+                android:clipToPadding="false"
+                android:scrollbars="none" />
 
-             <include android:id="@+id/shimmerCategory"
+            <include
+                android:id="@+id/shimmerCategory"
                 layout="@layout/item_recycler_category_shimmer" />
 
             <TextView
-                android:padding="10dp"
-                android:gravity="center"
-                android:textColor="@color/colorWhite"
-                android:text="@string/app_name"
-                android:background="@color/colorPrimaryLight"
-                android:layout_alignParentBottom="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"/>
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorIcons"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="RESTRO"
+                android:textColor="@color/colorWhite" />
 
         </RelativeLayout>
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

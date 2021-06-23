@@ -8,7 +8,7 @@
  -                                                                            -
  -                                                                            -
  -----------------------------------------------------------------------------*/
-package com.haerul.foodsapp.view.home;
+package com.iot.iotrestaurantapp.view.home;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.haerul.foodsapp.R;
+import com.iot.iotrestaurantapp.R;
 
 public class iot1 extends AppCompatActivity {
    Button ac;

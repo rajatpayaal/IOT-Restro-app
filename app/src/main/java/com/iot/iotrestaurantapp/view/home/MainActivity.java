@@ -1,10 +1,5 @@
-/*-----------------------------------------------------------------------------
- - Developed by Haerul Muttaqin                                               -
- - Last modified 4/29/20 1:04 AM                                              -
- - Subscribe : https://www.youtube.com/haerulmuttaqin                         -
- - Copyright (c) 2020. All rights reserved                                    -
- -----------------------------------------------------------------------------*/
-package com.haerul.foodsapp.view.home;
+
+package com.iot.iotrestaurantapp.view.home;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -30,7 +25,7 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
-import com.haerul.foodsapp.R;
+import com.iot.iotrestaurantapp.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.Objects;

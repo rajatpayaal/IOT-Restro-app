@@ -1,7 +1,7 @@
-package com.haerul.foodsapp.api;
+package com.iot.iotrestaurantapp.api;
 
-import com.haerul.foodsapp.model.Categories;
-import com.haerul.foodsapp.model.Meals;
+import com.iot.iotrestaurantapp.model.Categories;
+import com.iot.iotrestaurantapp.model.Meals;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

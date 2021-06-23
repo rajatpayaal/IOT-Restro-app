@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "795926567312",
-    "firebase_url": "https://foodsapp-starting-code-28be2.firebaseio.com",
-    "project_id": "foodsapp-starting-code-28be2",
-    "storage_bucket": "foodsapp-starting-code-28be2.appspot.com"
+    "project_number": "413524990799",
+    "firebase_url": "https://iotrestaurantapp.firebaseio.com",
+    "project_id": "iotrestaurantapp",
+    "storage_bucket": "iotrestaurantapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:795926567312:android:4f376ce890208cfde97b15",
+        "mobilesdk_app_id": "1:413524990799:android:3c7028173fb7920e9e433a",
         "android_client_info": {
-          "package_name": "com.haerul.foodsapp2"
+          "package_name": "com.iot.iotrestaurantapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "795926567312-bpn7f67hblvhio0u66ge6quuncal8cij.apps.googleusercontent.com",
+          "client_id": "413524990799-0ig42mo1cibdthaphpf310ej8pifgpnk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBk1yMfKjtjmftP2Jgo53wdzKE3a5zIiGg"
+          "current_key": "AIzaSyBMlNtktmORdDhusr_dpqDcMhu0jW2XVf4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "795926567312-bpn7f67hblvhio0u66ge6quuncal8cij.apps.googleusercontent.com",
+              "client_id": "413524990799-0ig42mo1cibdthaphpf310ej8pifgpnk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,5 +1,5 @@
 
-package com.haerul.foodsapp.adapter;
+package com.iot.iotrestaurantapp.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-import com.haerul.foodsapp.R;
-import com.haerul.foodsapp.model.Meals;
+import com.iot.iotrestaurantapp.R;
+import com.iot.iotrestaurantapp.model.Meals;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
