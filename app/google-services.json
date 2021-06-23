@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "795926567312",
+    "firebase_url": "https://foodsapp-starting-code-28be2.firebaseio.com",
+    "project_id": "foodsapp-starting-code-28be2",
+    "storage_bucket": "foodsapp-starting-code-28be2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795926567312:android:4f376ce890208cfde97b15",
+        "android_client_info": {
+          "package_name": "com.haerul.foodsapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795926567312-bpn7f67hblvhio0u66ge6quuncal8cij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk1yMfKjtjmftP2Jgo53wdzKE3a5zIiGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795926567312-bpn7f67hblvhio0u66ge6quuncal8cij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
