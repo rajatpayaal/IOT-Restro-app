@@ -26,7 +26,12 @@
 </p>
 
 
-   
+## Demo Apk
+
+[Download APK](https://drive.google.com/file/d/1jyI5JuXql1VkLIgPSWT-HUXKi1gWDmW1/view?usp=drive_link)
+
+## Demo Video
+[Demo Video](https://youtu.be/IO75NGpGKMw?si=6unmfDdBrt1um_cg)
 
 - ### Application is designed to make dining out a hassle-free and enjoyable experience. With wireless connectivity and user-friendly interfaces, we've simplified the entire process. Whether it's adjusting your dining environment, placing orders, or discovering the secrets behind your favorite dishes, we put the power in your hands. Welcome to a dining experience where technology meets simplicity and where your comfort and satisfaction are our top priorities.
 
